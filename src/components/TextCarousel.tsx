@@ -45,9 +45,9 @@ export default function TextCarousel({ texts, interval = 6000, className = "", s
   }, [current, texts]);
 
   return (
-    <div
+    <span
       ref={containerRef}
-      className={`overflow-hidden whitespace-nowrap ${className}`}
+      className={`block overflow-hidden whitespace-nowrap ${className}`}
       style={style}
     >
       <span
@@ -57,6 +57,6 @@ export default function TextCarousel({ texts, interval = 6000, className = "", s
       >
         {texts[current]}
       </span>
-    </div>
+    </span>
   );
 }
