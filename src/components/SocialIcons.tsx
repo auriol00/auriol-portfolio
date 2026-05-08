@@ -20,12 +20,11 @@ function SocialIcon({ s, iconSize, className }: {
   iconSize: number;
   className: string;
 }) {
-  const [useFallback, setUseFallback] = useState(false);
   const [hidden, setHidden] = useState(false);
 
   if (hidden) return null;
 
-  const src = useFallback ? s.logo : `https://cdn.simpleicons.org/${s.name}/white`;
+  const src = s.logo || `https://cdn.simpleicons.org/${s.name}/white`;
 
   const img = (
     <img
@@ -33,14 +32,8 @@ function SocialIcon({ s, iconSize, className }: {
       alt={s.name}
       width={iconSize}
       height={iconSize}
-      className={useFallback ? "invert" : ""}
-      onError={() => {
-        if (!useFallback && s.logo) {
-          setUseFallback(true);
-        } else {
-          setHidden(true);
-        }
-      }}
+      className={s.logo ? "invert" : ""}
+      onError={() => setHidden(true)}
     />
   );
 
