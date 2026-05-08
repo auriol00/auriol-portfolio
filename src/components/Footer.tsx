@@ -20,9 +20,10 @@ export default function Footer() {
             <span className="font-serif italic text-xl" style={{ color: portfolioConfig.theme.primary }}>
               {portfolioConfig.name}
             </span>
-            <p className="text-sm underline leading-relaxed max-w-xs text-muted">
-            <TextCarousel texts={taglines} />
-          </p>
+            <TextCarousel
+              texts={taglines}
+              className="text-sm underline leading-relaxed max-w-xs text-muted"
+            />
             <SocialIcons size="sm" />
 
           </div>
