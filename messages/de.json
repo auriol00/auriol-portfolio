@@ -12,18 +12,18 @@
     "cvModalTitle": "Lebenslauf anfordern",
     "cvModalText": "Mein Lebenslauf enthält persönliche Daten und wird daher nicht öffentlich geteilt. Schreib mir kurz über das Kontaktformular — ich sende ihn dir umgehend zu!",
     "cvModalCta": "Zum Kontaktformular",
-    "role": "Developer · Designer · Student",
-    "hobbies": " Radfahren ·  Coding ·  Musik ·  Reisen",
-    "profileImageAlt": "Dein Name – Developer & Student",
-    "bio": "Kurze Beschreibung über dich — wird für SEO Meta-Tags verwendet."
+    "role": "Entwickler · Student · Tutor",
+    "hobbies": "Fitness · Musik · Radfahren · Lesen",
+    "profileImageAlt": "Auriol Sopning Tiotsop – Entwickler & Student",
+    "bio": "Student der Angewandten Informatik an der Hochschule Worms. Full-Stack-Entwickler mit Fokus auf moderne Web- und Mobile-Anwendungen."
   },
   "about": {
     "subtitle": "Wer bin ich",
     "title": "Über mich",
     "cta": "Schreib mir",
     "hire": "Hire me",
-    "alt": "Foto von dir",
-    "text": "Schreibe hier etwas über dich. Wer bist du? Was machst du? Was treibt dich an? Dieser Text erscheint neben dem Bild-Carousel in der Über-mich-Sektion."
+    "alt": "Foto von Auriol",
+    "text": "Ich bin ein engagierter Informatikstudent, der sowohl eigenständig als auch hervorragend im Team arbeiten kann. Zudem begeistern mich neue Technologien, und ich freue mich immer darauf, etwas Neues zu lernen. Von Full-Stack-Webanwendungen über Mobile Apps bis hin zu Datenpipelines — ich verwandle Ideen gerne in funktionierende Software."
   },
   "skills": {
     "subtitle": "Was ich kann",
@@ -36,11 +36,32 @@
     "title": "Lebenslauf",
     "items": {
       "1": {
+        "type": "Erfahrung",
+        "title": "Linux-Tutor",
+        "company": "Hochschule Worms",
+        "date": "Okt 2024 – heute",
+        "description": "Unterstützung von Studierenden beim Einstieg in Linux: Kommandozeile, Shell-Skripting, Dateihandling, Rechte, sed und reguläre Ausdrücke. Hilfe bei Hausaufgaben und Klausurvorbereitung."
+      },
+      "2": {
+        "type": "Ehrenamt",
+        "title": "Inspirer bei Hacker School",
+        "company": "Hacker School",
+        "date": "Sept 2025",
+        "description": "Durchführung von Programmier-Workshops für Schulklassen. Vermittlung erster Schritte in Python, HTML/CSS und MakeCode. Begeisterung von Jugendlichen für digitale Themen."
+      },
+      "3": {
         "type": "Studium",
-        "title": "Bachelor Informatik",
-        "company": "Deine Hochschule",
-        "date": "2021 – heute",
-        "description": "Beschreibe dein Studium, Schwerpunkte und besondere Leistungen."
+        "title": "B.Sc. Angewandte Informatik",
+        "company": "Hochschule Worms",
+        "date": "Mär 2024 – Mär 2027 (voraussichtlich)",
+        "description": "Schwerpunkte: Softwareentwicklung, Software-Architektur, Prozessautomatisierung, Netzwerke & IT-Sicherheit, Cloud Computing."
+      },
+      "4": {
+        "type": "Schulbildung",
+        "title": "Abitur",
+        "company": "G.B.H.S Bertoua, Kamerun",
+        "date": "2015 – 2021",
+        "description": "Abschluss mit der Note 1,5 (deutsches Äquivalent). Allgemeine Hochschulreife."
       }
     }
   },
@@ -54,14 +75,34 @@
     "allVideos": "Alle Videos",
     "items": {
       "1": {
-        "type": "Web App",
-        "title": "Open Source Portfolio",
-        "description": "Ein konfigurierbares Portfolio-System für Studenten und Entwickler. Alles wird über eine einzige Konfigurationsdatei gesteuert — Name, Projekte, Skills, Farben. Fork it, edit one file, deploy."
+        "type": "Teamprojekt",
+        "title": "WormsHub — Smart-City-Plattform",
+        "description": "Modulare Open-Source-Plattform zur Integration, Normalisierung und Bereitstellung von IoT-Sensordaten in Echtzeit. Teamprojekt der Hochschule Worms. Größte Herausforderung: Design einer flexiblen Mapping- und Decoder-Logik für verschiedene Sensordatenformate."
       },
       "2": {
-        "type": "Dashboard",
-        "title": "Analytics Dashboard",
-        "description": "Echtzeit-Daten-Dashboard mit interaktiven Charts und Dark Mode. Dieses Beispielprojekt zeigt, wie du mehrere Projekte in deinem Portfolio präsentieren kannst."
+        "type": "Cloud Security",
+        "title": "REST-API-Absicherung in der Cloud",
+        "description": "Node.js-Backend abgesichert durch OAuth 2.0 und Azure AD. Azure API Management erzwingt JWT-Validierung, rollenbasierte Zugriffskontrolle (RBAC) und Rate Limiting. Saubere Trennung von Client, Gateway und Resource Server."
+      },
+      "3": {
+        "type": "Full-Stack Web App",
+        "title": "E-Commerce-Plattform",
+        "description": "Webanwendung für personalisierte Produktempfehlungen. Nutzer erstellen ein Hautprofil und erhalten passende Kosmetikprodukte. Funktionen: Suche, Filterung, Warenkorb und Authentifizierung."
+      },
+      "4": {
+        "type": "Mobile App",
+        "title": "Zyklus-Tracking & Community App",
+        "description": "Cross-Plattform-App zur Zyklusverfolgung mit Symptom-Dokumentation, Diskussionsforum und Partner-Modus zur selektiven Freigabe von Gesundheitsdaten. Fokus auf diskretes Design und Datenschutz."
+      },
+      "5": {
+        "type": "Lernplattform",
+        "title": "Mintopia — Interaktives Lernen für Kinder",
+        "description": "Mobile-First-Lernwebsite für Kinder mit Lernvideos, Quiz-Modulen und interaktiven UI-Elementen. Farbschema und Usability speziell auf junge Nutzer abgestimmt."
+      },
+      "6": {
+        "type": "Data Engineering",
+        "title": "Gebrauchtwagen-Datenpipeline",
+        "description": "End-to-End ETL-Pipeline, die Gebrauchtwagen-Inserate der Heycar Trader API scrapt, bereinigt und in einem PostgreSQL Data Warehouse speichert, und Analyseberichte generiert."
       }
     }
   },
@@ -69,7 +110,7 @@
     "subtitle": "Schreib mir",
     "title": "Kontakt",
     "name": "Name",
-    "email": "E-Mail Adresse",
+    "email": "E-Mail-Adresse",
     "message": "Nachricht",
     "send": "Nachricht senden",
     "sending": "Wird gesendet...",
@@ -82,9 +123,10 @@
     "phone": "Telefon",
     "email": "E-Mail",
     "taglines": [
-      "Dein erstes Motto oder Zitat",
-      "Noch ein inspirierender Spruch",
-      "So viele wie du willst — sie rotieren automatisch"
+      "Code ist Poesie, geschrieben in Logik.",
+      "Immer am Lernen. Immer am Bauen.",
+      "Ideen in Interfaces verwandeln.",
+      "Von Kamerun zum Code — meine Reise geht weiter."
     ]
   },
   "readMore": "Mehr lesen",

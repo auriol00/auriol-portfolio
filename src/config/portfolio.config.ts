@@ -11,6 +11,8 @@
 // ║  Images go in the /public folder.                              ║
 // ╚══════════════════════════════════════════════════════════════════╝
 
+type Video = { title: string; url: string; duration: string };
+
 const portfolioConfig = {
 
   // ============================================
@@ -39,9 +41,9 @@ const portfolioConfig = {
   // Also edit "footer.taglines" in messages/*.json:
   //   "footer": { "taglines": ["Quote 1", "Quote 2", "Quote 3"] }
 
-  name: "Your Name",
+  name: "Auriol Sopning Tiotsop",
   profileImage: "/images/profile.png",
-  cv: "/cv/your-name-cv.pdf",
+  cv: "/cv/auriol-sopning-tiotsop-cv.pdf",
 
   // ============================================
   // 2. SOCIAL LINKS
@@ -57,10 +59,8 @@ const portfolioConfig = {
   //   { name: "youtube", url: "https://youtube.com/@yourchannel", logo: "" },
 
   social: [
-    { name: "github", url: "https://github.com/your-username", logo: "" },
-    { name: "linkedin", url: "", logo: "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" },
-    { name: "x", url: "", logo: "" },
-    { name: "instagram", url: "", logo: "" },
+    { name: "github", url: "https://github.com/auriol00", logo: "" },
+    { name: "linkedin", url: "https://www.linkedin.com/in/auriol-sopning-tiotsop-1a94a5319/", logo: "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" },
   ],
 
   // ============================================
@@ -104,7 +104,7 @@ const portfolioConfig = {
 
   about: {
     images: [
-      "/images/about-1.jpg", // local — place your own image in /public/images/
+      "/images/about-1.png", // local — place your own image in /public/images/
       "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80", // online — laptop with code
     ],
   },
@@ -133,21 +133,44 @@ const portfolioConfig = {
         id: "frontend",
         label: "Frontend",
         items: [
-          { name: "React", stars: 4, percent: 80, icon: "react", logo: "" },
-          { name: "Next.js", stars: 3, percent: 65, icon: "next.js", logo: "" },
-          { name: "Tailwind CSS", stars: 5, percent: 95, icon: "tailwindcss", logo: "" },
-          { name: "TypeScript", stars: 3, percent: 65, icon: "typescript", logo: "" },
+          { name: "Angular", stars: 4, percent: 75, icon: "angular", logo: "" },
+          { name: "React", stars: 3, percent: 60, icon: "react", logo: "" },
+          { name: "HTML/CSS", stars: 4, percent: 85, icon: "html5", logo: "" },
+          { name: "JavaScript", stars: 4, percent: 80, icon: "javascript", logo: "" },
+          { name: "TypeScript", stars: 4, percent: 75, icon: "typescript", logo: "" },
         ],
       },
       {
         id: "backend",
         label: "Backend",
         items: [
-          { name: "Node.js", stars: 3, percent: 60, icon: "node.js", logo: "" },
-          { name: "Python", stars: 2, percent: 40, icon: "python", logo: "" },
+          { name: "Node.js", stars: 4, percent: 75, icon: "nodedotjs", logo: "" },
+          { name: "FastAPI", stars: 4, percent: 75, icon: "fastapi", logo: "" },
+          { name: "Python", stars: 3, percent: 60, icon: "python", logo: "" },
+          { name: "Java", stars: 3, percent: 55, icon: "openjdk", logo: "" },
+          { name: "C/C++", stars: 2, percent: 45, icon: "cplusplus", logo: "" },
         ],
       },
-      // Add more categories here...
+      {
+        id: "databases",
+        label: "Databases",
+        items: [
+          { name: "PostgreSQL", stars: 4, percent: 75, icon: "postgresql", logo: "" },
+          { name: "MongoDB", stars: 4, percent: 70, icon: "mongodb", logo: "" },
+          { name: "Firebase", stars: 3, percent: 60, icon: "firebase", logo: "" },
+        ],
+      },
+      {
+        id: "devops",
+        label: "DevOps & Tools",
+        items: [
+          { name: "Git", stars: 4, percent: 80, icon: "git", logo: "" },
+          { name: "Docker", stars: 3, percent: 60, icon: "docker", logo: "" },
+          { name: "Linux", stars: 4, percent: 75, icon: "linux", logo: "" },
+          { name: "Azure", stars: 3, percent: 55, icon: "microsoftazure", logo: "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/microsoftazure.svg" },
+          { name: "Figma", stars: 3, percent: 55, icon: "figma", logo: "" },
+        ],
+      },
     ],
   },
 
@@ -180,11 +203,28 @@ const portfolioConfig = {
   timeline: [
     {
       id: 1,
-      companyUrl: "https://www.example-university.edu",
+      companyUrl: "https://www.hs-worms.de",
       image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80",
-      tags: ["Algorithms", "Databases"],
+      tags: ["Linux", "Shell", "RegExp", "Teaching"],
     },
-    // Add more entries here...
+    {
+      id: 2,
+      companyUrl: "https://www.hacker-school.de",
+      image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80",
+      tags: ["Python", "HTML/CSS", "MakeCode", "Volunteering"],
+    },
+    {
+      id: 3,
+      companyUrl: "https://www.hs-worms.de",
+      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80",
+      tags: ["Software Engineering", "Cloud Computing", "Networks", "IT Security"],
+    },
+    {
+      id: 4,
+      companyUrl: "",
+      image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80",
+      tags: ["Abitur", "GPA 1.5"],
+    },
   ],
 
   // ============================================
@@ -219,27 +259,63 @@ const portfolioConfig = {
     {
       id: 1,
       images: [
-        "/images/projects/projekt-1.jpg",
-        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80",
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
       ],
-      tags: ["Next.js", "TypeScript", "Tailwind"],
-      github: "https://github.com/auriol00/auriol-portfolio",
-      live: "",
-      videos: [
-        { title: "Big Buck Bunny — Demo Video", url: "https://www.youtube.com/watch?v=aqz-KE-bpKQ", duration: "9:56" },
-      ],
+      tags: ["Python", "FastAPI", "PostgreSQL", "React", "Docker", "Keycloak"],
+      github: "",
+      live: "https://wormshub.it.hs-worms.de",
+      videos: [] as Video[],
     },
     {
       id: 2,
       images: [
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
       ],
-      tags: ["React", "Node.js", "PostgreSQL"],
+      tags: ["Node.js", "Azure AD", "OAuth 2.0", "JWT", "RBAC"],
       github: "",
       live: "",
-      videos: [],
+      videos: [] as Video[],
     },
-    // Add more projects here...
+    {
+      id: 3,
+      images: [
+        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+      ],
+      tags: ["Angular", "Node.js", "Express", "MongoDB", "REST API"],
+      github: "",
+      live: "",
+      videos: [] as Video[],
+    },
+    {
+      id: 4,
+      images: [
+        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+      ],
+      tags: ["Flutter", "Dart", "Firebase Auth", "Cloud Firestore"],
+      github: "",
+      live: "",
+      videos: [] as Video[],
+    },
+    {
+      id: 5,
+      images: [
+        "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+      ],
+      tags: ["HTML5", "CSS3", "JavaScript"],
+      github: "https://github.com/auriol00/Mintopia.github.io",
+      live: "https://auriol00.github.io/Mintopia.github.io/",
+      videos: [] as Video[],
+    },
+    {
+      id: 6,
+      images: [
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+      ],
+      tags: ["Python", "PostgreSQL", "Docker", "Airflow", "ETL"],
+      github: "",
+      live: "",
+      videos: [] as Video[],
+    },
   ],
 
   // ============================================
@@ -264,8 +340,8 @@ const portfolioConfig = {
   //   }
 
   contact: {
-    email: "your-email@example.com",
-    phone: "+49 234 567890",
+    email: "sopninga@gmail.com",
+    phone: "+49 176 36768625",
   },
 
   // ============================================

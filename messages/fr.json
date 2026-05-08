@@ -1,7 +1,7 @@
 {
   "nav": {
     "hero": "Profil",
-    "about": "À propos",
+    "about": "A propos",
     "skills": "Compétences",
     "timeline": "CV",
     "portfolio": "Portfolio",
@@ -12,18 +12,18 @@
     "cvModalTitle": "Demander le CV",
     "cvModalText": "Mon CV contient des données personnelles et n'est pas partagé publiquement. Envoyez-moi un message via le formulaire de contact — je vous l'enverrai immédiatement !",
     "cvModalCta": "Vers le formulaire de contact",
-    "role": "Développeur · Designer · Étudiant",
-    "hobbies": " Cyclisme ·  Coding ·  Musique ·  Voyages",
-    "profileImageAlt": "Votre Nom – Développeur & Étudiant",
-    "bio": "Une courte description de vous — utilisée pour les balises méta SEO."
+    "role": "Développeur · Étudiant · Tuteur",
+    "hobbies": "Sport · Musique · Cyclisme · Lecture",
+    "profileImageAlt": "Auriol Sopning Tiotsop — Développeur & Étudiant",
+    "bio": "Étudiant en informatique appliquée à la Hochschule Worms. Développeur full-stack passionné par les applications web et mobiles modernes."
   },
   "about": {
     "subtitle": "Qui suis-je",
-    "title": "À propos",
+    "title": "A propos",
     "cta": "Contactez-moi",
     "hire": "Hire me",
-    "alt": "Photo de vous",
-    "text": "Écrivez quelque chose sur vous ici. Qui êtes-vous ? Que faites-vous ? Qu'est-ce qui vous motive ? Ce texte apparaît à côté du carrousel d'images dans la section À propos."
+    "alt": "Photo d'Auriol",
+    "text": "Je suis un étudiant en informatique motivé, capable de travailler efficacement de manière autonome et en équipe. Je suis passionné par les nouvelles technologies et toujours avide d'apprendre. Des applications web full-stack aux apps mobiles en passant par les pipelines de données — j'aime transformer les idées en logiciels fonctionnels."
   },
   "skills": {
     "subtitle": "Mes compétences",
@@ -36,11 +36,32 @@
     "title": "CV",
     "items": {
       "1": {
+        "type": "Expérience",
+        "title": "Tuteur Linux",
+        "company": "Hochschule Worms",
+        "date": "Oct 2024 – aujourd'hui",
+        "description": "Accompagnement des étudiants dans les bases de Linux : ligne de commande, scripts shell, gestion de fichiers, permissions, sed et expressions régulières. Aide aux devoirs et préparation aux examens."
+      },
+      "2": {
+        "type": "Bénévolat",
+        "title": "Inspirer chez Hacker School",
+        "company": "Hacker School",
+        "date": "Sept 2025",
+        "description": "Animation d'ateliers de programmation pour des classes scolaires. Initiation à Python, HTML/CSS et MakeCode. Inspiration des jeunes pour les sujets numériques."
+      },
+      "3": {
         "type": "Formation",
-        "title": "Licence en Informatique",
-        "company": "Votre Université",
-        "date": "2021 – aujourd'hui",
-        "description": "Décrivez vos études, domaines de spécialisation et réalisations notables."
+        "title": "Licence en Informatique Appliquée",
+        "company": "Hochschule Worms",
+        "date": "Mars 2024 – Mars 2027 (prévu)",
+        "description": "Spécialisations : développement logiciel, architecture logicielle, automatisation des processus, réseaux & sécurité informatique, cloud computing."
+      },
+      "4": {
+        "type": "Formation",
+        "title": "Baccalauréat",
+        "company": "G.B.H.S Bertoua, Cameroun",
+        "date": "2015 – 2021",
+        "description": "Diplômé avec la mention 1,5 (équivalent allemand). Qualification générale d'accès à l'université."
       }
     }
   },
@@ -54,14 +75,34 @@
     "allVideos": "Toutes les vidéos",
     "items": {
       "1": {
-        "type": "Web App",
-        "title": "Open Source Portfolio",
-        "description": "Un système de portfolio configurable pour les étudiants et développeurs. Tout est contrôlé via un seul fichier de configuration — nom, projets, compétences, couleurs. Forkez, éditez un fichier, déployez."
+        "type": "Projet d'équipe",
+        "title": "WormsHub — Plateforme Smart City",
+        "description": "Plateforme open-source modulaire pour l'intégration, la normalisation et la diffusion de données IoT en temps réel. Projet d'équipe à la Hochschule Worms. Plus grand défi : conception d'une logique flexible de mapping et de décodage pour différents formats de données capteurs."
       },
       "2": {
-        "type": "Dashboard",
-        "title": "Analytics Dashboard",
-        "description": "Tableau de bord de données en temps réel avec des graphiques interactifs et un mode sombre. Ce projet exemple montre comment présenter plusieurs projets dans votre portfolio."
+        "type": "Sécurité Cloud",
+        "title": "Sécurisation d'API REST dans le Cloud",
+        "description": "Backend Node.js sécurisé par OAuth 2.0 et Azure AD. Azure API Management applique la validation JWT, le contrôle d'accès basé sur les rôles (RBAC) et la limitation de débit. Séparation claire entre client, gateway et serveur de ressources."
+      },
+      "3": {
+        "type": "Application Web Full-Stack",
+        "title": "Plateforme E-Commerce",
+        "description": "Application web pour des recommandations personnalisées de produits. Les utilisateurs créent un profil de peau et reçoivent des produits cosmétiques adaptés. Fonctionnalités : recherche, filtrage, panier et authentification."
+      },
+      "4": {
+        "type": "Application Mobile",
+        "title": "App de Suivi de Cycle & Communauté",
+        "description": "Application cross-plateforme pour le suivi du cycle menstruel avec documentation des symptômes, forum de discussion et mode partenaire pour le partage sélectif des données de santé. Design discret et respect de la vie privée."
+      },
+      "5": {
+        "type": "Plateforme éducative",
+        "title": "Mintopia — Apprentissage interactif pour enfants",
+        "description": "Site web éducatif mobile-first pour enfants avec vidéos, modules de quiz et éléments UI interactifs. Palette de couleurs et ergonomie spécialement conçues pour un jeune public."
+      },
+      "6": {
+        "type": "Data Engineering",
+        "title": "Pipeline de données véhicules d'occasion",
+        "description": "Pipeline ETL de bout en bout qui collecte les annonces de véhicules d'occasion via l'API Heycar Trader, nettoie et stocke les données dans un entrepôt PostgreSQL, et génère des rapports d'analyse."
       }
     }
   },
@@ -82,9 +123,10 @@
     "phone": "Téléphone",
     "email": "E-Mail",
     "taglines": [
-      "Votre première devise ou citation",
-      "Une autre phrase inspirante",
-      "Autant que vous voulez — elles tournent automatiquement"
+      "Le code est de la poésie écrite en logique.",
+      "Toujours apprendre. Toujours construire.",
+      "Transformer les idées en interfaces.",
+      "Du Cameroun au code — mon voyage continue."
     ]
   },
   "readMore": "Lire la suite",

@@ -12,18 +12,18 @@
     "cvModalTitle": "Request resume",
     "cvModalText": "My resume contains personal data and is not shared publicly. Send me a quick message via the contact form — I'll send it to you right away!",
     "cvModalCta": "Go to contact form",
-    "role": "Developer · Designer · Student",
-    "hobbies": " Cycling ·  Coding ·  Music ·  Travel",
-    "profileImageAlt": "Your Name - Developer & Student",
-    "bio": "A short description about yourself — used for SEO meta tags."
+    "role": "Developer · Student · Tutor",
+    "hobbies": "Gym · Music · Cycling · Reading",
+    "profileImageAlt": "Auriol Sopning Tiotsop — Developer & Student",
+    "bio": "Applied Computer Science student at Hochschule Worms. Full-stack developer building web and mobile applications with modern technologies."
   },
   "about": {
     "subtitle": "Who am I",
     "title": "About me",
     "cta": "Contact me",
     "hire": "Hire me",
-    "alt": "Photo of you",
-    "text": "Write something about yourself here. Who are you? What do you do? What drives you? This text appears next to the image carousel in the About section."
+    "alt": "Photo of Auriol",
+    "text": "I'm a dedicated Computer Science student who works effectively both independently and in teams. I'm passionate about new technologies and always eager to learn something new. From full-stack web applications to mobile apps and data pipelines — I love turning ideas into working software."
   },
   "skills": {
     "subtitle": "What I can do",
@@ -36,11 +36,32 @@
     "title": "Resume",
     "items": {
       "1": {
+        "type": "Experience",
+        "title": "Linux Tutor",
+        "company": "Hochschule Worms",
+        "date": "Oct 2024 – Present",
+        "description": "Supporting students with Linux fundamentals: command line, shell scripting, file handling, permissions, sed, and regular expressions. Assisting with homework and exam preparation."
+      },
+      "2": {
+        "type": "Volunteering",
+        "title": "Inspirer at Hacker School",
+        "company": "Hacker School",
+        "date": "Sept 2025",
+        "description": "Conducting programming workshops for school classes, teaching first steps in Python, HTML/CSS, and MakeCode. Inspiring young people for digital topics and supporting students with no prior experience."
+      },
+      "3": {
         "type": "Education",
-        "title": "Bachelor in Computer Science",
-        "company": "Your University",
-        "date": "2021 – present",
-        "description": "Describe your studies, focus areas and notable achievements."
+        "title": "B.Sc. Applied Computer Science",
+        "company": "Hochschule Worms",
+        "date": "Mar 2024 – Mar 2027 (expected)",
+        "description": "Focus areas: Software Engineering, Software Architecture, Process Automation, Networks & IT Security, Cloud Computing."
+      },
+      "4": {
+        "type": "Education",
+        "title": "Abitur (High School Diploma)",
+        "company": "G.B.H.S Bertoua, Cameroon",
+        "date": "2015 – 2021",
+        "description": "Graduated with a final grade of 1.5 (German equivalent). General university entrance qualification."
       }
     }
   },
@@ -54,14 +75,34 @@
     "allVideos": "All videos",
     "items": {
       "1": {
-        "type": "Web App",
-        "title": "Open Source Portfolio",
-        "description": "A configurable portfolio system for students and developers. Everything is controlled via a single config file — name, projects, skills, colors. Fork it, edit one file, deploy."
+        "type": "Team Project",
+        "title": "WormsHub — Smart City Platform",
+        "description": "Modular open-source platform for integrating, normalizing, and serving IoT sensor data in real time. Built as a team project at Hochschule Worms. My biggest challenge: designing a flexible mapping and decoder logic for different sensor data formats."
       },
       "2": {
-        "type": "Dashboard",
-        "title": "Analytics Dashboard",
-        "description": "Real-time data dashboard with interactive charts and dark mode. This example project shows how to showcase multiple projects in your portfolio."
+        "type": "Cloud Security",
+        "title": "REST API Security in the Cloud",
+        "description": "Node.js backend secured with OAuth 2.0 and Azure AD. Azure API Management enforces JWT validation, role-based access control (RBAC), and rate limiting. Clean separation of client, gateway, and resource server."
+      },
+      "3": {
+        "type": "Full-Stack Web App",
+        "title": "E-Commerce Platform",
+        "description": "Web application for personalized product recommendations. Users create a skin profile and receive matching cosmetic products. Features include search, filtering, shopping cart, and authentication."
+      },
+      "4": {
+        "type": "Mobile App",
+        "title": "Cycle Tracking & Community App",
+        "description": "Cross-platform app for menstrual cycle tracking with symptom documentation, a discussion forum, and a partner mode for selectively sharing health data. Focus on discreet design and privacy."
+      },
+      "5": {
+        "type": "Learning Platform",
+        "title": "Mintopia — Interactive Learning for Kids",
+        "description": "Mobile-first learning website for children with educational videos, quiz modules, and interactive UI elements. Color scheme and usability specifically tailored for young users."
+      },
+      "6": {
+        "type": "Data Engineering",
+        "title": "Used Car Data Pipeline",
+        "description": "End-to-end ETL pipeline that scrapes used-car listings from the Heycar Trader API, cleans and stores them in a PostgreSQL data warehouse, and generates analysis reports."
       }
     }
   },
@@ -82,9 +123,10 @@
     "phone": "Phone",
     "email": "E-Mail",
     "taglines": [
-      "Your first motto or quote",
-      "Another inspiring saying",
-      "As many as you want — they rotate automatically"
+      "Code is poetry written in logic.",
+      "Always learning. Always building.",
+      "Turning ideas into interfaces.",
+      "From Cameroon to code — my journey continues."
     ]
   },
   "readMore": "Read more",
