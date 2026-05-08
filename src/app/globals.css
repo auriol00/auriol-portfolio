@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/* CSS Variablen werden aus portfolio.config.ts generiert (siehe layout.tsx) */
+
+/* ============================================
+   BASIS STYLES
+   ============================================ */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* ANIMATIONEN */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateX(0px) translateY(0px); }
+  50% { transform: translateX(10px) translateY(-6px); }
+}
+
+@keyframes progress {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+@keyframes marquee {
+  0%, 10% { transform: translateX(0); }
+  90%, 100% { transform: translateX(var(--marquee-distance)); }
+}
+
+/* WIEDERVERWENDBARE KLASSEN */
+
+/* Layout */
+.section-padding {
+  padding: 6rem 1.5rem;
+}
+@media (min-width: 768px) {
+  .section-padding { padding: 6rem 5rem; }
+}
+@media (min-width: 1024px) {
+  .section-padding { padding: 6rem 10rem; }
+}
+
+.section-container {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+/* Farben */
+.text-main { color: var(--foreground); }
+.text-muted { color: var(--foreground-secondary); }
+.text-accent { color: var(--primary); }
+.bg-main { background: var(--background); }
+.bg-secondary { background: var(--background-secondary); }
+.bg-card { background: var(--card); }
+.border-main { border-color: var(--border); }
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: opacity 0.2s;
+  cursor: pointer;
+  border: none;
+}
+.btn:hover { opacity: 0.9; }
+.btn-primary { background: var(--primary); color: white; }
+.btn-secondary { background: var(--secondary); color: white; }
+.btn-outline {
+  background: transparent;
+  color: var(--foreground);
+  border: 1px solid var(--border);
+}
+.btn-outline:hover { opacity: 0.7; }
+
+/* Animationen */
+.float {
+  animation: float 5s ease-in-out infinite;
+}

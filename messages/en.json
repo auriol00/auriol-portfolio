@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "hero": "Profile",
+    "about": "About",
+    "skills": "Skills",
+    "timeline": "Resume",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "cvButton": "Download CV",
+    "cvModalTitle": "Request resume",
+    "cvModalText": "My resume contains personal data and is not shared publicly. Send me a quick message via the contact form — I'll send it to you right away!",
+    "cvModalCta": "Go to contact form",
+    "role": "Developer · Designer · Student",
+    "hobbies": " Cycling ·  Coding ·  Music ·  Travel",
+    "profileImageAlt": "Your Name - Developer & Student",
+    "bio": "A short description about yourself — used for SEO meta tags."
+  },
+  "about": {
+    "subtitle": "Who am I",
+    "title": "About me",
+    "cta": "Contact me",
+    "hire": "Hire me",
+    "alt": "Photo of you",
+    "text": "Write something about yourself here. Who are you? What do you do? What drives you? This text appears next to the image carousel in the About section."
+  },
+  "skills": {
+    "subtitle": "What I can do",
+    "title": "Skills & Tech Stack",
+    "description": "1 star = beginner · 5 stars = expert",
+    "all": "All"
+  },
+  "timeline": {
+    "subtitle": "My journey",
+    "title": "Resume",
+    "items": {
+      "1": {
+        "type": "Education",
+        "title": "Bachelor in Computer Science",
+        "company": "Your University",
+        "date": "2021 – present",
+        "description": "Describe your studies, focus areas and notable achievements."
+      }
+    }
+  },
+  "portfolio": {
+    "subtitle": "My work",
+    "title": "Portfolio",
+    "liveOpen": "Open live",
+    "noDemo": "No demo",
+    "nowPlaying": "Now playing",
+    "openInTab": "Open in new tab",
+    "allVideos": "All videos",
+    "items": {
+      "1": {
+        "type": "Web App",
+        "title": "Open Source Portfolio",
+        "description": "A configurable portfolio system for students and developers. Everything is controlled via a single config file — name, projects, skills, colors. Fork it, edit one file, deploy."
+      },
+      "2": {
+        "type": "Dashboard",
+        "title": "Analytics Dashboard",
+        "description": "Real-time data dashboard with interactive charts and dark mode. This example project shows how to showcase multiple projects in your portfolio."
+      }
+    }
+  },
+  "contact": {
+    "subtitle": "Get in touch",
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email address",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending...",
+    "successTitle": "Message sent!",
+    "successText": "I'll get back to you as soon as possible.",
+    "newMessage": "Write a new message",
+    "errorText": "Something went wrong. Please try again or email me directly at"
+  },
+  "footer": {
+    "phone": "Phone",
+    "email": "E-Mail",
+    "taglines": [
+      "Your first motto or quote",
+      "Another inspiring saying",
+      "As many as you want — they rotate automatically"
+    ]
+  },
+  "readMore": "Read more",
+  "themeToggle": "Toggle dark mode",
+  "menuOpen": "Open menu"
+}

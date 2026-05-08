@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "hero": "Profil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "timeline": "CV",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "cvButton": "Télécharger le CV",
+    "cvModalTitle": "Demander le CV",
+    "cvModalText": "Mon CV contient des données personnelles et n'est pas partagé publiquement. Envoyez-moi un message via le formulaire de contact — je vous l'enverrai immédiatement !",
+    "cvModalCta": "Vers le formulaire de contact",
+    "role": "Développeur · Designer · Étudiant",
+    "hobbies": " Cyclisme ·  Coding ·  Musique ·  Voyages",
+    "profileImageAlt": "Votre Nom – Développeur & Étudiant",
+    "bio": "Une courte description de vous — utilisée pour les balises méta SEO."
+  },
+  "about": {
+    "subtitle": "Qui suis-je",
+    "title": "À propos",
+    "cta": "Contactez-moi",
+    "hire": "Hire me",
+    "alt": "Photo de vous",
+    "text": "Écrivez quelque chose sur vous ici. Qui êtes-vous ? Que faites-vous ? Qu'est-ce qui vous motive ? Ce texte apparaît à côté du carrousel d'images dans la section À propos."
+  },
+  "skills": {
+    "subtitle": "Mes compétences",
+    "title": "Skills & Tech Stack",
+    "description": "1 étoile = débutant · 5 étoiles = expert",
+    "all": "Tout"
+  },
+  "timeline": {
+    "subtitle": "Mon parcours",
+    "title": "CV",
+    "items": {
+      "1": {
+        "type": "Formation",
+        "title": "Licence en Informatique",
+        "company": "Votre Université",
+        "date": "2021 – aujourd'hui",
+        "description": "Décrivez vos études, domaines de spécialisation et réalisations notables."
+      }
+    }
+  },
+  "portfolio": {
+    "subtitle": "Mes projets",
+    "title": "Portfolio",
+    "liveOpen": "Ouvrir le site",
+    "noDemo": "Pas de démo",
+    "nowPlaying": "En cours",
+    "openInTab": "Ouvrir dans un nouvel onglet",
+    "allVideos": "Toutes les vidéos",
+    "items": {
+      "1": {
+        "type": "Web App",
+        "title": "Open Source Portfolio",
+        "description": "Un système de portfolio configurable pour les étudiants et développeurs. Tout est contrôlé via un seul fichier de configuration — nom, projets, compétences, couleurs. Forkez, éditez un fichier, déployez."
+      },
+      "2": {
+        "type": "Dashboard",
+        "title": "Analytics Dashboard",
+        "description": "Tableau de bord de données en temps réel avec des graphiques interactifs et un mode sombre. Ce projet exemple montre comment présenter plusieurs projets dans votre portfolio."
+      }
+    }
+  },
+  "contact": {
+    "subtitle": "Écrivez-moi",
+    "title": "Contact",
+    "name": "Nom",
+    "email": "Adresse e-mail",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "successTitle": "Message envoyé !",
+    "successText": "Je vous répondrai dès que possible.",
+    "newMessage": "Écrire un nouveau message",
+    "errorText": "Une erreur est survenue. Veuillez réessayer ou m'écrire directement à"
+  },
+  "footer": {
+    "phone": "Téléphone",
+    "email": "E-Mail",
+    "taglines": [
+      "Votre première devise ou citation",
+      "Une autre phrase inspirante",
+      "Autant que vous voulez — elles tournent automatiquement"
+    ]
+  },
+  "readMore": "Lire la suite",
+  "themeToggle": "Changer le mode de couleur",
+  "menuOpen": "Ouvrir le menu"
+}

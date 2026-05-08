@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "hero": "Profil",
+    "about": "Über mich",
+    "skills": "Skills",
+    "timeline": "Lebenslauf",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "cvButton": "CV herunterladen",
+    "cvModalTitle": "Lebenslauf anfordern",
+    "cvModalText": "Mein Lebenslauf enthält persönliche Daten und wird daher nicht öffentlich geteilt. Schreib mir kurz über das Kontaktformular — ich sende ihn dir umgehend zu!",
+    "cvModalCta": "Zum Kontaktformular",
+    "role": "Developer · Designer · Student",
+    "hobbies": " Radfahren ·  Coding ·  Musik ·  Reisen",
+    "profileImageAlt": "Dein Name – Developer & Student",
+    "bio": "Kurze Beschreibung über dich — wird für SEO Meta-Tags verwendet."
+  },
+  "about": {
+    "subtitle": "Wer bin ich",
+    "title": "Über mich",
+    "cta": "Schreib mir",
+    "hire": "Hire me",
+    "alt": "Foto von dir",
+    "text": "Schreibe hier etwas über dich. Wer bist du? Was machst du? Was treibt dich an? Dieser Text erscheint neben dem Bild-Carousel in der Über-mich-Sektion."
+  },
+  "skills": {
+    "subtitle": "Was ich kann",
+    "title": "Skills & Tech Stack",
+    "description": "1 Stern = Grundkenntnisse · 5 Sterne = Experte",
+    "all": "Alle"
+  },
+  "timeline": {
+    "subtitle": "Mein Werdegang",
+    "title": "Lebenslauf",
+    "items": {
+      "1": {
+        "type": "Studium",
+        "title": "Bachelor Informatik",
+        "company": "Deine Hochschule",
+        "date": "2021 – heute",
+        "description": "Beschreibe dein Studium, Schwerpunkte und besondere Leistungen."
+      }
+    }
+  },
+  "portfolio": {
+    "subtitle": "Meine Arbeiten",
+    "title": "Portfolio",
+    "liveOpen": "Live öffnen",
+    "noDemo": "Kein Demo",
+    "nowPlaying": "Gerade läuft",
+    "openInTab": "In neuem Tab öffnen",
+    "allVideos": "Alle Videos",
+    "items": {
+      "1": {
+        "type": "Web App",
+        "title": "Open Source Portfolio",
+        "description": "Ein konfigurierbares Portfolio-System für Studenten und Entwickler. Alles wird über eine einzige Konfigurationsdatei gesteuert — Name, Projekte, Skills, Farben. Fork it, edit one file, deploy."
+      },
+      "2": {
+        "type": "Dashboard",
+        "title": "Analytics Dashboard",
+        "description": "Echtzeit-Daten-Dashboard mit interaktiven Charts und Dark Mode. Dieses Beispielprojekt zeigt, wie du mehrere Projekte in deinem Portfolio präsentieren kannst."
+      }
+    }
+  },
+  "contact": {
+    "subtitle": "Schreib mir",
+    "title": "Kontakt",
+    "name": "Name",
+    "email": "E-Mail Adresse",
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "successTitle": "Nachricht gesendet!",
+    "successText": "Ich melde mich so schnell wie möglich bei dir.",
+    "newMessage": "Neue Nachricht schreiben",
+    "errorText": "Etwas ist schiefgelaufen. Bitte versuche es nochmal oder schreib direkt an"
+  },
+  "footer": {
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "taglines": [
+      "Dein erstes Motto oder Zitat",
+      "Noch ein inspirierender Spruch",
+      "So viele wie du willst — sie rotieren automatisch"
+    ]
+  },
+  "readMore": "Mehr lesen",
+  "themeToggle": "Farbmodus umschalten",
+  "menuOpen": "Menü öffnen"
+}
