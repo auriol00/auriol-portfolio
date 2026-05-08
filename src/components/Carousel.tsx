@@ -49,7 +49,7 @@ export default function Carousel({ images, alt, interval = 3000, height = "h-48 
           style={{ opacity: i === current ? 1 : 0, zIndex: i === current ? 2 : 1 }}
         >
           {img ? (
-            <Image src={img} alt={`${alt} ${i + 1}`} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
+            <Image src={img} alt={`${alt} ${i + 1}`} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain" />
           ) : (
             <div className="w-full h-full flex items-end justify-center bg-secondary">
               <div className="w-20 h-32 rounded-t-full" style={{ background: "var(--border)" }} />
