@@ -203,6 +203,17 @@ export default function Portfolio() {
 
                 {/* LINKS */}
                 <div className="flex gap-3 flex-wrap">
+                  {project.live && (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-primary"
+                    >
+                      <FiGlobe size={14} />
+                      {t("liveOpen")}
+                    </a>
+                  )}
                   {project.github && (
                     <a
                       href={project.github}
